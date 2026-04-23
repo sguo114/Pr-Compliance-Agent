@@ -44,20 +44,21 @@ If you want to run this agent on your own repositories, follow these steps:
 ### Environment Configuration
 
 Create a `.env` file in the project root with the following secrets:
-\`\`\`env
+
 APP_ID=your_github_app_id
+
 WEBHOOK_SECRET=your_webhook_secret
+
 PRIVATE_KEY_PATH=path/to/your/private-key.pem
+
 OLLAMA_BASE_URL=http://localhost:11434
+
 PORT=3000
-\`\`\`
 
 ### Installation
-
-\`\`\`bash
 npm install
+
 npm run dev
-\`\`\`
 
 ---
 
